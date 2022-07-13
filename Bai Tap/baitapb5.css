@@ -186,11 +186,11 @@ ul,li{
   margin-top: 20px;
 }
 
-.intro-sub-container-content h3 {
+.sub-container-content h3 {
   text-transform: uppercase;
 }
 
-.intro-sub-container-content {
+.sub-container-content {
   line-height: 1.5;
   color: #464646;
   font-size: 20px;
