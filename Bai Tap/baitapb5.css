@@ -178,7 +178,6 @@ ul,li{
     right: -5px;
     transform: rotate(-8deg);
 }
-/* css sub-content */
 .sub-container {
   width: 80%;
   display: flex;
@@ -205,13 +204,11 @@ img {
   vertical-align: middle;
   border-style: none;
 }
-  
-  /* css footer */
-  #footer {
+ #footer {
     background-color: #30598c;
   }
   
-  .container-fluid {
+.container-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -219,30 +216,30 @@ img {
     margin-left: auto;
   }
   
-  .footer {
+.footer {
     font-size: 14px;
     color: #fff;
     line-height: 2.5em;
     padding: 3rem 0;
   }
   
-  .row {
+.row {
     display: flex;
     flex-wrap: wrap;
     margin-left: 0;
     margin-right: 0;
   }
-  
-  .col-md-3 {
+
+.col-md-3 {
     flex: 0 0 25%;
     max-width: 25%;
   }
   
-  .list-unstyled {
+.list-unstyled {
     padding-left: 0;
     list-style: none;
   }
-  a {
+a {
     text-decoration: none;
     color: #fff;
   }
