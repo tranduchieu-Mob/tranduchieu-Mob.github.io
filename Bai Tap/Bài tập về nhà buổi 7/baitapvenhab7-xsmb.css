@@ -1,9 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: center;
+    font-family: Arial;
+    line-height: 30px;
+    color: #000;
+    font-weight: 700px;
+  }
+  div{display: block;
+    }
+  .content{
+    background-color: transparent;
+    border-spacing: 0;
   }
   #header {
-    width: 600px;
+    width: 620px;
     color: #fff;
     background-color: #6f7677;
     font-size: 30px;
@@ -13,18 +26,20 @@ body {
   
   table {
     width: 620px;
+    display: table;
   }
   table,td,th {
     border: 1px solid #333;
     border-collapse: collapse;
+    padding: 3px;
   }
-  td,
-  th {
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    }
+  td,th {
     padding: 6px 10px;
-  }
-  
-  table.table-hover tbody tr:hover {
-    background: yellow;
   }
   .daydu {
     width: 105px;
@@ -50,4 +65,81 @@ body {
     margin-top: -33px;
     margin-left: 290px;
   }
+  .prize{
+    text-align: center;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .dacbiet{
+    font-size: 30px;
+    color: red;  
+  }
+  .giai1{
+    font-size: 25px;
+  }
+  span.giai2{
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+  }
+  .giai2{
+    width: 50%;
+    float: left;
+  }
+  span.giai3{
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+  }
+  .giai3{
+    width: 33.33333333%;
+    float: left;
+    position: relative;
+    
+  }
+  span.giai4{
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+  }
+  .giai4{
+    width: 50%;
+    float: left;
+  }
+  span.giai5{
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+  }
+  .giai5{
+    width: 33.33333333%;
+    float: left;
+    position: relative;
+  }
+  span.giai6{
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+  }
+  .giai6{
+    width: 33.33333333%;
+    float: left;
+  }
+  span.giai7{
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+  }
+  .giai7{
+    width: 25%;
+    float: left;
+  }
+  .table > tbody > tr > td{
+    line-height: 20px
+  }
+
+
+
   
