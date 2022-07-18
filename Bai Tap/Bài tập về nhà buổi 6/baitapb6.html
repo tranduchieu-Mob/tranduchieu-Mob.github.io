@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập về nhà Buổi 6</title>
+    <style>
+      
+@keyframes change-color {
+  20% {
+    background-color: gray;
+  }
+  40% {
+    background-color: red;
+  }
+  60% {
+    background-color: orange;
+  }
+  80% {
+    background-color: blue;
+  }
+}
+
+h1 {
+  text-align: center;
+  background-color: #e4ecf1;
+  padding: 20px;
+  animation: change-color 5s infinite;
+}
+
+@keyframes change-content {
+  20% {
+    content: "Học"
+  }
+  40% {
+    content: "Là";
+  }
+  60% {
+    content: "Có";
+  }
+  80% {
+    content: "Việc";
+  }
+}
+
+h1::after{
+  content: "Techmaster";
+  animation: change-content 5s infinite;
+}
+    </style>
+</head>
+<body>
+  <h1></h1>
+</body>
+</html>
