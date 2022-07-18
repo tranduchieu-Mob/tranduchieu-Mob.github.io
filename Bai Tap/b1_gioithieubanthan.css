@@ -29,29 +29,4 @@
 .img{
     padding: 20px;
 }
-.link{
-    line-height: 30px;
-    margin-bottom: 50px;
-
-}
-.link1 :hover{
-    opacity: 50px;
-    color: gray;
-}
-.link2 :hover{
-    opacity: 50px;
-    color: powderblue;
-}
-.link3 :hover{
-    opacity: 50px;
-    color: palevioletred;
-}
-.link4 :hover{
-    opacity: 50px;
-    color: black;
-}
-.link5 :hover{
-    opacity: 50px;
-    color: blue;
-}
 
